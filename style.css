@@ -1,0 +1,32 @@
+#container {
+    width: 200vh;
+    height: 50vh;
+    margin: 0 auto;
+    background-color: black;
+    padding-top: 50vh;
+}
+
+.loader {
+    width: 50pt;
+    height: 50pt;
+    border-radius: 100%;
+    background-color: orange;
+    animation: hai 2s ease infinite;
+    margin: 0 auto;
+
+}
+
+@keyframes hai {
+    0% {
+        background-color: orange;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    100% {
+        top: 10pt;
+        background-color: red;
+    }
+}
